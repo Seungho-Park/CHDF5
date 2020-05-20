@@ -5,6 +5,6 @@ let package = Package(
     name: "CHDF5",
     pkgConfig: "libhdf5",
     dependencies:[
-        .Package(url: "https://github.com/aleph7/CHDF5.git", majorVersion: 1)
+        .Package(url: "https://github.com/Seungho-Park/CHDF5.git", majorVersion: 1.1)
     ]
 )
